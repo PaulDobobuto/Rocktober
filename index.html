@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocktober</title>
+    <style>
+        body {
+            background-color: black; /* Fondo negro */
+            color: white; /* Texto blanco */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centrar horizontalmente el contenido */
+            justify-content: center; /* Centrar verticalmente */
+            height: 100vh; /* Altura completa de la ventana */
+            margin: 0; /* Sin márgenes */
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between; /* Espacio entre los botones */
+            width: 97%; /* Ancho completo */
+            padding: 0 20px; /* Espaciado lateral */
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white; /* Color del texto en los botones */
+            border: none; /* Sin borde */
+            border-radius: 31px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+            text-decoration: none; /* Sin subrayado en el texto del enlace */
+        }
+        .button.pauls {
+            background-image: url(https://i.imgur.com/DERbZ8u.gif); /* Color de fondo del botón de Paul */
+            background-size: cover;
+        }
+        .button.yarlis {
+            background-image: url(https://i.pinimg.com/originals/99/f9/84/99f98431fbe49795f9d557209dc88ce2.gif); /* Color de fondo del botón de Yarlis */
+            background-size: cover;
+        }
+        .button:hover {
+            opacity: 0.9; /* Opacidad al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenido a Rocktober</h1>
+
+    <div class="button-container">
+        <a href="paul.html" class="button pauls">Go with Paul</a>
+        <a href="yarlis.html" class="button yarlis">Go with Yarlis</a>
+    </div>
+
+</body>
+</html>
